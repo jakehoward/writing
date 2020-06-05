@@ -80,8 +80,9 @@ One possibly valid measure of complexity is counting the number of states a syst
 Example:
 - If I have three squares, and two buttons (x and y), how many states can my system be in?
 ```
-----------
-|x_|__|_y|
+ -----------
+| x |   | y |
+ -----------
 ```
 
 This system can be in 6 states: (`x - y`, `- x y`, `x y -`) and the same again where you swap the x and y.
