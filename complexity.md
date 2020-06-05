@@ -65,7 +65,7 @@ Some important properties about this system have changed:
 - The number of possible different paths through the system has gone from 1 to 13,122 (6 * 3^7, might help you to think of the tree of possible options if you care about checking the number. Also assumes that you can to to 0 and 7 on the extreme left/right).
   - Let's reiterate that quickly: six components, 7 opportunities to make a choice, three possible choices and 13,121 more paths...yikes! Don't give your systems options!
   - You may or may not wish to treat with suspicion a person who claims they can reason about 13,122 paths.
-  - The final state of the system can be in 36 states (6 for each string).
+  - The final state of the system can be in `6^6 = 46,656` states (6 for each string).
 
 If someone offered you a dollar per question for a correct answer and you got to choose between System 1 with 6 strings and System 2 with 1,000,000,000 strings, which would you choose? Hopefully I've demonstrated that cardinality (the number of things you have) and the complexity (how intertwined they are) are orthogonal concepts.
 
