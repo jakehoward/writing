@@ -147,7 +147,7 @@ Hopefully I've given the thin end of the wedge for thinking about how you might 
 
 The short and sweet answer is: you **multiply together the complexities of the two systems**. It's actually more complex than that, because there may be states that are mutually exclusive when you combine the systems so certain things can't happen.
 
-If you keep multiplying small numbers together they get quite large numbers fairly quickly. What seems like a little bit of complexity when only thinking about one module make a system go from a complexity of 100 (just about manageable) to 300 (getting to be too hard for a human being) by only adding a complexity of 3.
+If you keep multiplying small numbers together they become quite large numbers fairly quickly. What seems like a little bit of complexity when only thinking about one module make a system go from a complexity of 100 (just about manageable) to 300 (getting to be too hard for a human being) by only adding a complexity of 3.
 
 Let's take system 1: a function that spits out A or B, and system 2: a function that spits out 1 or 2. Each system has a complexity "2" (1, 2) | (A, B) on it's own, but if you call one then the other and use the result, it has complexity 4 (1A, 1B, 2A, 2B). If you can call them in _either_ order, obviously the complexity goes up even more.
 
