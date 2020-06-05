@@ -125,8 +125,8 @@ Module A {
 
 Module B {
     how-many-widgets() {
-        if A.a-property == 10        // <- Module B knows about Module A, they share 1 bit of information (1 bit has two states, in this case "is 10", "is not 10")
-            'some widgets'
+        if A.a-property == 10        // <- Module B knows about Module A, they share 1 bit of information 
+            'some widgets'           // (1 bit has two states, in this case "is 10", "is not 10")
         else
             'lots of widgets'
     }
