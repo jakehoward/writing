@@ -135,7 +135,7 @@ Module B {
 }
 ```
 
-In the example above you can't reason about the behaviour of module B without also knowing about the sate of module A _at the time_. And this is the absolute killer of mutable state, you have to know both the input values to the system _and_ the state of the system _at the time_. If you deal in only immutable values and pure functions, you only need to know the input values and your output is _defined_ (see [referential transparency](https://en.wikipedia.org/wiki/Referential_transparency)).
+In the example above you can't reason about the behaviour of module B without also knowing about the sate of module A _at the time_. Aside: this is the absolute killer of mutable state, you have to know both the input values to the system _and_ the state of the system _at the time_ (to be absolutely clear, the same concept applies to immutable state too, but it's not as bad). If you deal in only immutable values and pure functions, you only need to know the input values and your output is _defined_ (see [referential transparency](https://en.wikipedia.org/wiki/Referential_transparency)).
 
 #### Method 3 - Using both knowledge and number of states
 
