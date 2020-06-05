@@ -62,7 +62,7 @@ System 2
 
 Some important properties about this system have changed:
 - It's no longer trivial to answer the question "For top number `n`, what's the corresponding bottom number?"
-- The number of states the system can be in has gone from 1 to 13,122 (6 * 3^7, might help you to thing of the tree of possible options if you care about checking the number. Also assumes that you can to to 0 and 7 on the extreme left/right).
+- The number of states the system can be in has gone from 1 to 13,122 (6 * 3^7, might help you to think of the tree of possible options if you care about checking the number. Also assumes that you can to to 0 and 7 on the extreme left/right).
   - Let's reiterate that quickly: six components, 7 opportunities to make a choice, three possible choices and 13,121 more states...yikes! Don't give your systems options!
   - You may or may not wish to treat with suspicion a person who claims they can reason about 13,122 states.
 
