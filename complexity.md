@@ -141,11 +141,7 @@ In the example above you can't reason about the behaviour of module B without al
 
 Perhaps there is a higher abstraction that describes both knowledge and the number of states. I currently haven't thought about how to mathematically/rationally combine these two measures, but I suspect it's doable for someone literate in the ideas and who has the time.
 
-#### Summary of measuring complexity
-
-Hopefully I've given the thin end of the wedge for thinking about how you might measure the complexity of a system objectively. It very quickly gets very difficult to put actual numbers against real world systems. However, what's much easier is to ask "if I take action X, will it _increase_ or _decrease_ the complexity?", where X may be: add some code, delete some code, use some database, add a feature, etc.
-
-### How to measure complexity when you combine two systems
+#### How to measure complexity when you combine two systems
 
 The short and sweet answer is: you **multiply together the complexities of the two systems**. It's actually more complex than that, because there may be states that are mutually exclusive when you combine the systems so certain things can't happen.
 
@@ -157,6 +153,9 @@ This is a recursive definition. If you need to combine 3 systems, simply combine
 
 A complex system can be measured by the number of possible states it can be in. Therefore, if you take more complex things and put them together, you will have a more complex system than if you take simple things and put them together.
 
+#### Summary of measuring complexity
+
+Hopefully I've given the thin end of the wedge for thinking about how you might measure the complexity of a system objectively. It very quickly gets very difficult to put actual numbers against real world systems. However, what's much easier is to ask "if I take action X, will it _increase_ or _decrease_ the complexity?", where X may be: add some code, delete some code, use some database, add a feature, etc.
 
 ## More ideas, concepts and materials to enrich your thinking around complexity
 
