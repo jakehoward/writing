@@ -41,8 +41,8 @@ Imagine we used a special tool to build the system that guaranteed the strings c
 
 Now imagine we created a system whereby for each row of text you were allowed to either:
 - stay going straight down
-- swap with the string to your left
-- swap with the string to your right
+- move one column to the left
+- move one column to the right
 
 Here's an example of a possible outcome that's easy enough to draw in ascii-art (but is subtly wrong because it takes two rows to do a swap in this drawing but should only take one - please forgive me and use your imagination):
 
