@@ -67,7 +67,7 @@ Some important properties about this system have changed:
   - You may or may not wish to treat with suspicion a person who claims they can reason about 13,122 paths.
   - The final state of the system is about `6^6 = 46,656` states (approximated to 6 for each string, it's actually going to be slightly different because you could also be in position 0 or 7 as the problem is set up. If the number of strings were more than the number of rows they wouldn't be able to get in all end states. It's basically a big number, I'll figure out the proper solution later...).
 
-If someone offered you a dollar per question for a correct answer and you got to choose between System 1 with 6 strings and System 2 with 1,000,000,000 strings, which would you choose? Hopefully I've demonstrated that cardinality (the number of things you have) and the complexity (how intertwined they are) are orthogonal concepts.
+If someone offered you a dollar per question for a correct answer and you got to choose between System 2 with 6 strings and System 1 with 1,000,000,000 strings, which would you choose? Hopefully I've demonstrated that cardinality (the number of things you have) and the complexity (how intertwined they are) are orthogonal concepts.
 
 ### Measuring complexity
 
